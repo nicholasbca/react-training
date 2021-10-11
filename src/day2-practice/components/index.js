@@ -41,8 +41,8 @@ export default function TransferApp() {
       <hr />
       Apakah mau tambah saldo?
       <br />
-      <button onClick={() => save1000(1000)}>Tambah Rp.1000</button>
-      <button onClick={() => save5000(5000)}>Tambah Rp.5000</button>
+      <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 m-5 rounded" onClick={() => save1000(1000)}>Tambah Rp.1000</button>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5 rounded" onClick={() => save5000(5000)}>Tambah Rp.5000</button>
       <hr />
       Apakah mau tarik saldo?
       <br/>
