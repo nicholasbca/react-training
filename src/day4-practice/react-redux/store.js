@@ -8,5 +8,5 @@ import thunkMiddleware  from "redux-thunk";
 
 const composedEnhancer = applyMiddleware(thunkMiddleware)
 
-const store = createStore(TodoReducer, composedEnhancer)
+const store = createStore(rootReducer, composedEnhancer)
 export default store

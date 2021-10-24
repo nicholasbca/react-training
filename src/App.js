@@ -10,6 +10,7 @@ import RouterApp from './day3-practice/Routeer';
 import ReactRedux from './day4-practice/react-redux';
 import TodoListBasic from './day4-practice/basic-crud';
 import TodoListRedux from './day4-practice/react-redux/TodoListRedux';
+import RouterAppWithPrivate from './day5-practice/Route';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       {/* Hello Everyone */}
       {/* <TransferApp /> */}
       {/* <RouterApp /> */}
-      <ReactRedux />
+      <RouterAppWithPrivate />
       {/* <TodoListBasic /> */}
   
     </div>
