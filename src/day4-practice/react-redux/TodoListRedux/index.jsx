@@ -5,11 +5,11 @@ import { getData, postData } from './actions'
 
 export default function TodoListRedux() {
   const [taskValue, setTaskValue] = useState('')
-  const todos = useSelector(state => state.todos)
+  const todos = useSelector(state => state.todos.todos)
   const dispatch = useDispatch()
   
   useEffect(() => {
-    dispatch(getData())
+    getData(dispatch)
   }, [])
 
   // const postData = async() => {
@@ -45,7 +45,7 @@ export default function TodoListRedux() {
       id: todos.length + 1,
       task: taskValue
     }
-    postData(dispatch, newTodo)
+    postData(dispatch,newTodo)
     setTaskValue('')
   }
 
