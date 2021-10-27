@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { Child } from './child'
 
 const Notes = [
@@ -22,9 +23,32 @@ const Notes = [
 ]
 
 const FetchData = () => {
+  const [users, setUsers] = useState([])
+
+  const getData = async () => {
+    try{
+      const rawData = await fetch('http://jsonplaceholder.typicode.com/users')
+      const data = await rawData.json()
+      if(data){
+        setUsers(data)
+      }
+    }catch(error){
+      console.log(error);
+    }
+  }
+
+  useEffect(() => {
+    getData()
+  }, [])
+
+  console.log(users)
+
   return(
     <div>
       <Child notes={Notes}/>
+      <ol>
+        {users.map((user, id) => <li key={id}>{user.username}</li>)}
+      </ol>
     </div>
   )
 }

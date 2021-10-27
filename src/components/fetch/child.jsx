@@ -3,8 +3,8 @@ export const Child = (props) => {
 
   return(
     <ul>
-      {notes.map(note => 
-        <li>{note.content}</li>
+      {notes.map((note, id) => 
+        <li key={id}>{note.content}</li>
         )}
     </ul>
   )
