@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function ButtonKlik({klik, text, color}) {
+export default function ButtonKlik({text, color, klik}) {
   return (
-    <button style={{background:color}} onClick={klik}>{text}</button>
+    <div>
+      <button style={{background:color}} onClick={klik}>{text}</button>
+    </div>
   )
 }
