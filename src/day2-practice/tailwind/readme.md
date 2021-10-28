@@ -17,9 +17,9 @@ $ npm install @craco/craco
   "start": "react-scripts start",
   "build": "react-scripts build",
   "test": "react-scripts test",
-  "start": "craco start",
-  "build": "craco build",
-  "test": "craco test",
+  "start-tail": "craco start",
+  "build-tail": "craco build",
+  "test-tail": "craco test",
   "eject": "react-scripts eject"
  },
 }
