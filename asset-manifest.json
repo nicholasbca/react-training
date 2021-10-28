@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-training/static/css/main.1a81d260.chunk.css",
+    "main.js": "/react-training/static/js/main.8b6554f6.chunk.js",
+    "main.js.map": "/react-training/static/js/main.8b6554f6.chunk.js.map",
+    "runtime-main.js": "/react-training/static/js/runtime-main.90ef87d3.js",
+    "runtime-main.js.map": "/react-training/static/js/runtime-main.90ef87d3.js.map",
+    "static/js/2.76508333.chunk.js": "/react-training/static/js/2.76508333.chunk.js",
+    "static/js/2.76508333.chunk.js.map": "/react-training/static/js/2.76508333.chunk.js.map",
+    "index.html": "/react-training/index.html",
+    "static/css/main.1a81d260.chunk.css.map": "/react-training/static/css/main.1a81d260.chunk.css.map",
+    "static/js/2.76508333.chunk.js.LICENSE.txt": "/react-training/static/js/2.76508333.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90ef87d3.js",
+    "static/js/2.76508333.chunk.js",
+    "static/css/main.1a81d260.chunk.css",
+    "static/js/main.8b6554f6.chunk.js"
+  ]
+}
