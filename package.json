@@ -2,7 +2,7 @@
   "name": "react-training",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aindrajaya.github.io/react-training/",
+  "homepage": "https://nicholasbca.github.io/react-training/",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@testing-library/jest-dom": "^5.11.4",
