@@ -3,7 +3,7 @@
 //   payload,
 // }
 const intitialState = {
-  count: 11
+  count: 0
 }
 
 const CounterReducer = (state=intitialState, action) => {
