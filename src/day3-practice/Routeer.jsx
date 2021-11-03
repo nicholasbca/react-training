@@ -32,7 +32,7 @@ export default function RouterApp() {
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>
-        <Route path="/app">
+        {/* <Route path="/app">
           <TransferApp />
         </Route>
         <Route path="/about">
@@ -43,7 +43,11 @@ export default function RouterApp() {
         </Route>
         <Route path="/">
           <Landing /> 
-        </Route>
+        </Route> */}
+        <Route path='/app' component={TransferApp}/>
+        <Route path='/about' component={About}/>
+        <Route path="/users" component={Users}/>
+        <Route path='/' component={Landing}/>
       </Switch>
     </div>
   );
