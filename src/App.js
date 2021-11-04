@@ -14,12 +14,12 @@ import TodoListRedux from './day4-practice/react-redux/TodoListRedux';
 function App() {
   return (
     <div className="App">
+      <h2>Hello Everyone</h2>
       {/* Hello Everyone */}
       {/* <TransferApp /> */}
       {/* <RouterApp /> */}
       <ReactRedux />
       {/* <TodoListBasic /> */}
-  
     </div>
   );
 }

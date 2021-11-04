@@ -1,7 +1,3 @@
-// action : {
-//   type,
-//   payload,
-// }
 const intitialState = {
   count: 0
 }
@@ -12,9 +8,13 @@ const CounterReducer = (state=intitialState, action) => {
       return {
         count: state.count + 1
       }
-    case "DECREMENT": 
-      return {
+    case "DECREMENT":
+      return{
         count: state.count - 1
+      }
+    case "RESET":
+      return{
+        count: 0
       }
     default:
       return state
