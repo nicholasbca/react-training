@@ -1,8 +1,12 @@
-import { createStore } from "redux";
+import { applyMiddleware, createStore } from "redux";
 import CounterReducer from "./CounterApp/reducer";
-import TodoReducer from "./TodoList/reducer";
+import rootReducer from "./rootReducer";
+import TodoReducer from "./TodoListRedux/reducer";
+import thunkMiddleware  from "redux-thunk";
 
 // const store = createStore(CounterReducer)
-const store = createStore(TodoReducer)
 
+const composedEnhancer = applyMiddleware(thunkMiddleware)
+
+const store = createStore(TodoReducer, composedEnhancer)
 export default store

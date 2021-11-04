@@ -25,3 +25,6 @@ Or
 ```bash
  yarn start
 ```
+
+### Here is the list of the day from This training
+- [Day 1](https://github.com/aindrajaya/react-training/tree/day1): Statefull & Stateless, Hooks, Lifecycle and Fetch Data

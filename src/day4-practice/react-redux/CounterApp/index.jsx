@@ -7,10 +7,10 @@ export default function CounterAppRedux() {
 
   return (
     <div>
+      dari redux
       <h1>{count}</h1>
-      <hr />
-      <button onClick={() => dispatch({type: "INCREMENT"})}>increment</button>
-      <button onClick={() => dispatch({type: "DECREMENT"})}>decrement</button>
+      <button onClick={() => dispatch({type: "INCREMENT"})}>+</button>
+      <button onClick={() => dispatch({type: "DECREMENT"})}>-</button>
     </div>
   )
 }

@@ -1,8 +1,12 @@
 {
-  "todolists":[
+  "todolists": [
     {
       "id": 1,
-      "task": "walking to the moon"
+      "task": "halooo good morning"
+    },
+    {
+      "id": 3,
+      "task": "data baru masuk"
     }
   ]
 }
